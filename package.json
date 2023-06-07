@@ -1,0 +1,52 @@
+{
+  "name": "inferno-mobx-template",
+  "version": "1.0.0",
+  "description": "An easy-start template for using InfernoJS, MobX, and Parcel.",
+  "main": "index.js",
+  "packageManager": "yarn@3.6.0",
+  "scripts": {
+    "build": "parcel build ./index.html",
+    "serve": "parcel serve ./index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amartincolby/inferno-mobx-template.git"
+  },
+  "keywords": [
+    "react",
+    "infernojs",
+    "mobx",
+    "parcel"
+  ],
+  "author": "Aaron Martin-Colby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amartincolby/inferno-mobx-template/issues"
+  },
+  "homepage": "https://github.com/amartincolby/inferno-mobx-template#readme",
+  "dependencies": {
+    "inferno": "^8.2.1",
+    "inferno-animation": "^8.2.1",
+    "inferno-extras": "^8.2.1",
+    "inferno-mobx": "^8.2.1",
+    "inferno-vnode-flags": "^8.2.1",
+    "mobx": "6.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.22.1",
+    "@babel/plugin-transform-runtime": "7.22.4",
+    "@emotion/babel-plugin": "11.11.0",
+    "@parcel/babel-plugin-transform-runtime": "2.8.3",
+    "@types/node": "20.2.5",
+    "@types/youtube": "0.0.47",
+    "@typescript-eslint/eslint-plugin": "5.59.8",
+    "@typescript-eslint/parser": "5.59.8",
+    "babel-plugin-inferno": "6.3.0",
+    "csstype": "3.1.2",
+    "eslint": "8.41.0",
+    "mocker-data-generator": "3.0.3",
+    "parcel": "2.8.3",
+    "typescript": "5.1.3"
+  }
+}
